@@ -15,23 +15,23 @@ class MainWindow(BackgroundWidget):
         self.setMinimumSize(800,600)
         self.layout = QVBoxLayout()
         
-        self.first_step_btn = QPushButton("Βήμα Πρώτο")
+        self.first_step_btn = QPushButton("Βήμα Πρώτο: Διαχωρισμός αρχείου με δεδομένα")
         self.first_step_btn.clicked.connect(self.open_first_step)
         self.layout.addWidget(self.first_step_btn)
         
-        self.second_step_btn = QPushButton("Βήμα Δεύτερο")
+        self.second_step_btn = QPushButton("Βήμα Δεύτερο: Αποκωδικοποίηση αρχείου Turbo Codes")
         self.second_step_btn.clicked.connect(self.open_second_step)
         self.layout.addWidget(self.second_step_btn)
         
-        self.third_step_btn = QPushButton("Βήμα Τρίτο")
+        self.third_step_btn = QPushButton("Βήμα Τρίτο: Καθαρισμός και Επεξεργασία CSV Αρχείων")
         self.third_step_btn.clicked.connect(self.open_third_step)
         self.layout.addWidget(self.third_step_btn)
         
-        self.fourth_step_btn = QPushButton("Βήμα Τέταρτο")
+        self.fourth_step_btn = QPushButton("Βήμα Τέταρτο: Γραφήματα δεδομένων")
         self.fourth_step_btn.clicked.connect(self.open_fourth_step)
         self.layout.addWidget(self.fourth_step_btn)
         
-        self.fifth_step_btn = QPushButton("Βήμα Πέμπτο")
+        self.fifth_step_btn = QPushButton("Βήμα Πέμπτο: Δημιουργία και Αποθήκευση Διαγραμμάτων Απόδοσης")
         self.fifth_step_btn.clicked.connect(self.open_fifth_step)
         self.layout.addWidget(self.fifth_step_btn)
 
